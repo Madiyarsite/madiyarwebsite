@@ -1,0 +1,510 @@
+.navbar {
+  position: fixed;
+  z-index: 21;
+  width: 100%;
+}
+
+.navbar a.nav-link {
+  color: #89898a;
+}
+
+svg.bi:hover {
+  color: #f858a0;
+}
+
+svg.bi:active {
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  color: #8a355b;
+}
+
+.carousel {
+  height: 100%;
+  width: 90%;
+}
+
+.carousel .carousel-inner {
+  height: 100%;
+  width: 90%;
+}
+
+.carousel .carousel-inner .gta4 {
+  height: 100%;
+}
+
+.carousel .carousel-inner .gta4 img {
+  height: 100%;
+}
+
+.carousel ol.carousel-indicators li {
+  background-color: #f858a0;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  max-height: 500px !important;
+  min-height: 350px;
+}
+
+.nav-pills .show > .nav-link {
+  background-color: red;
+  color: white;
+}
+
+.nav-pills .show > .nav-link:focus {
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  color: white;
+  background-color: red !important;
+}
+
+ul.navbar-nav li.dropdown .dropdown-toggle {
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+ul.navbar-nav li.dropdown .dropdown-toggle:active {
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#8a355b), to(#f858a0));
+  background: linear-gradient(0.25turn, #8a355b, #f858a0);
+}
+
+ul.navbar-nav li.dropdown:before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 0%;
+  background: -webkit-gradient(linear, left top, right top, from(#f858a0), to(#8a355b));
+  background: linear-gradient(0.25turn, #f858a0, #8a355b);
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  display: block;
+  border-radius: 4px;
+}
+
+ul.navbar-nav li.dropdown:hover:before {
+  width: 100%;
+}
+
+ul.navbar-nav li.dropdown .dropdown-menu {
+  margin: 0;
+  width: 100%;
+  border: none;
+  position: absolute;
+  text-align: center;
+}
+
+ul.navbar-nav li.dropdown .dropdown-item {
+  z-index: 10;
+  position: relative;
+  border: none;
+}
+
+.baner {
+  background: url("/bg/bag.jpg") center/cover no-repeat fixed;
+  min-height: 720px;
+  color: white;
+  font-size: 25px;
+  border-bottom: dashed 5px #fff;
+  padding: 5% 2% 5% 0;
+}
+
+.baner .Bootstrap_1 {
+  background-color: #181818;
+  border-bottom: 1px solid white;
+}
+
+.baner .Bootstrap_1 .list-bag {
+  background: transparent;
+  display: inline;
+  position: relative;
+}
+
+.baner .Bootstrap_1:nth-child(odd) {
+  background-color: #141414;
+}
+
+.baner .Bootstrap_1:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  -webkit-transition: ease 2s;
+  transition: ease 2s;
+  width: 0%;
+  border-radius: 0 100% 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#8a355b), to(#f858a0));
+  background: linear-gradient(0.25turn, #8a355b, #f858a0);
+}
+
+.baner .Bootstrap_1:after {
+  content: 'Bootstrap';
+  width: 0%;
+  height: 100%;
+  border: 1px dotted white;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0%;
+  color: #ffffff00;
+  text-align: center;
+  z-index: -1;
+  padding-top: 6px;
+  -webkit-transition: ease-out 1s;
+  transition: ease-out 1s;
+  border-right: none;
+}
+
+.baner .Bootstrap_1:hover:before {
+  content: '';
+  border-radius: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.baner .Bootstrap_1:hover:after {
+  content: 'Bootstrap';
+  width: 18%;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  z-index: 0;
+  color: #fff;
+}
+
+.baner .Bootstrap_1:after {
+  content: 'Bootstrap';
+}
+
+.baner .Bootstrap_1:hover:after {
+  content: 'Bootstrap';
+}
+
+.baner .sass {
+  background-color: #181818;
+  border-bottom: 1px solid white;
+}
+
+.baner .sass .list-bag {
+  background: transparent;
+  display: inline;
+  position: relative;
+}
+
+.baner .sass:nth-child(odd) {
+  background-color: #141414;
+}
+
+.baner .sass:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  -webkit-transition: ease 2s;
+  transition: ease 2s;
+  width: 0%;
+  border-radius: 0 100% 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#8a355b), to(#f858a0));
+  background: linear-gradient(0.25turn, #8a355b, #f858a0);
+}
+
+.baner .sass:after {
+  content: 'Bootstrap';
+  width: 0%;
+  height: 100%;
+  border: 1px dotted white;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0%;
+  color: #ffffff00;
+  text-align: center;
+  z-index: -1;
+  padding-top: 6px;
+  -webkit-transition: ease-out 1s;
+  transition: ease-out 1s;
+  border-right: none;
+}
+
+.baner .sass:hover:before {
+  content: '';
+  border-radius: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.baner .sass:hover:after {
+  content: 'Bootstrap';
+  width: 18%;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  z-index: 0;
+  color: #fff;
+}
+
+.baner .sass:after {
+  content: 'Sass';
+}
+
+.baner .sass:hover:after {
+  content: 'Sass';
+}
+
+.baner .animation {
+  background-color: #181818;
+  border-bottom: 1px solid white;
+}
+
+.baner .animation .list-bag {
+  background: transparent;
+  display: inline;
+  position: relative;
+}
+
+.baner .animation:nth-child(odd) {
+  background-color: #141414;
+}
+
+.baner .animation:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  -webkit-transition: ease 2s;
+  transition: ease 2s;
+  width: 0%;
+  border-radius: 0 100% 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#8a355b), to(#f858a0));
+  background: linear-gradient(0.25turn, #8a355b, #f858a0);
+}
+
+.baner .animation:after {
+  content: 'Bootstrap';
+  width: 0%;
+  height: 100%;
+  border: 1px dotted white;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0%;
+  color: #ffffff00;
+  text-align: center;
+  z-index: -1;
+  padding-top: 6px;
+  -webkit-transition: ease-out 1s;
+  transition: ease-out 1s;
+  border-right: none;
+}
+
+.baner .animation:hover:before {
+  content: '';
+  border-radius: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.baner .animation:hover:after {
+  content: 'Bootstrap';
+  width: 18%;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  z-index: 0;
+  color: #fff;
+}
+
+.baner .animation:after {
+  content: 'Animation';
+}
+
+.baner .animation:hover:after {
+  content: 'Animation';
+}
+
+.baner .flex {
+  background-color: #181818;
+  border-bottom: 1px solid white;
+}
+
+.baner .flex .list-bag {
+  background: transparent;
+  display: inline;
+  position: relative;
+}
+
+.baner .flex:nth-child(odd) {
+  background-color: #141414;
+}
+
+.baner .flex:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  -webkit-transition: ease 2s;
+  transition: ease 2s;
+  width: 0%;
+  border-radius: 0 100% 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#8a355b), to(#f858a0));
+  background: linear-gradient(0.25turn, #8a355b, #f858a0);
+}
+
+.baner .flex:after {
+  content: 'Bootstrap';
+  width: 0%;
+  height: 100%;
+  border: 1px dotted white;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0%;
+  color: #ffffff00;
+  text-align: center;
+  z-index: -1;
+  padding-top: 6px;
+  -webkit-transition: ease-out 1s;
+  transition: ease-out 1s;
+  border-right: none;
+}
+
+.baner .flex:hover:before {
+  content: '';
+  border-radius: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.baner .flex:hover:after {
+  content: 'Bootstrap';
+  width: 18%;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  z-index: 0;
+  color: #fff;
+}
+
+.baner .flex:after {
+  content: 'Flex';
+}
+
+.baner .flex:hover:after {
+  content: 'Flex';
+}
+
+.baner .coder {
+  background-color: #181818;
+  border-bottom: 1px solid white;
+}
+
+.baner .coder .list-bag {
+  background: transparent;
+  display: inline;
+  position: relative;
+}
+
+.baner .coder:nth-child(odd) {
+  background-color: #141414;
+}
+
+.baner .coder:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  -webkit-transition: ease 2s;
+  transition: ease 2s;
+  width: 0%;
+  border-radius: 0 100% 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#8a355b), to(#f858a0));
+  background: linear-gradient(0.25turn, #8a355b, #f858a0);
+}
+
+.baner .coder:after {
+  content: 'Bootstrap';
+  width: 0%;
+  height: 100%;
+  border: 1px dotted white;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0%;
+  color: #ffffff00;
+  text-align: center;
+  z-index: -1;
+  padding-top: 6px;
+  -webkit-transition: ease-out 1s;
+  transition: ease-out 1s;
+  border-right: none;
+}
+
+.baner .coder:hover:before {
+  content: '';
+  border-radius: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.baner .coder:hover:after {
+  content: 'Bootstrap';
+  width: 18%;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  z-index: 0;
+  color: #fff;
+}
+
+.baner .coder:after {
+  content: 'Beautifull';
+}
+
+.baner .coder:hover:after {
+  content: 'Beautifull';
+}
+
+.photos {
+  height: 300px;
+}
+
+.photos img {
+  display: inline-block;
+}
+
+@media (max-width: 990px) {
+  .baner .Bootstrap_1, .baner .sass, .baner .animation, .baner .flex, .baner .coder {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+  }
+  .baner .Bootstrap_1 .list-bag, .baner .sass .list-bag, .baner .animation .list-bag, .baner .flex .list-bag, .baner .coder .list-bag {
+    background: transparent;
+    display: inline;
+    position: relative;
+  }
+  .baner .Bootstrap_1:nth-child(odd), .baner .sass:nth-child(odd), .baner .animation:nth-child(odd), .baner .flex:nth-child(odd), .baner .coder:nth-child(odd) {
+    background-color: #ed2b5d8a;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(237, 44, 92, 0.549)), to(rgba(0, 0, 0, 0.4)));
+    background: linear-gradient(to left, rgba(237, 44, 92, 0.549) rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  }
+  .baner .Bootstrap_1:before, .baner .sass:before, .baner .animation:before, .baner .flex:before, .baner .coder:before {
+    content: '';
+    background: none;
+  }
+  .baner .Bootstrap_1:after, .baner .sass:after, .baner .animation:after, .baner .flex:after, .baner .coder:after {
+    content: '';
+    background: none;
+    display: none;
+  }
+  .baner .Bootstrap_1hover:after, .baner .sasshover:after, .baner .animationhover:after, .baner .flexhover:after, .baner .coderhover:after {
+    content: '';
+  }
+}
+/*# sourceMappingURL=style.css.map */

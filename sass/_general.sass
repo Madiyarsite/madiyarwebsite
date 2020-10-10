@@ -172,16 +172,19 @@ ul.navbar-nav
 main.photos
 			height: 100%
 			padding: 20px 0 0 0 
+			
 			.galery
+
 						
 						h2
 									color: #f858a0
 									font-family: verdana
 									font-size: 25px	
 			.img-p
-						height: 100%
+						min-height: 320px
 						width: 100%	
 						margin: 15px 0
+						padding: 0 0 35px 0
 						border-bottom: solid #800000 1px
 						&:last-child
 									border: none
@@ -219,6 +222,17 @@ main.photos
 						.image4
 									background: url('../bg/adaptation.jpg') center center / 100% 50% no-repeat
 									@include image
+						button
+									color: #fff
+						.bootstrap-btn
+									background-color: $bootstrap-color
+									@include btn
+						.css-btn
+									background-color: $css-color
+									@include btn
+						.sass-btn
+									background-color: $sass-color
+									@include btn
 
 
 
@@ -227,10 +241,12 @@ main.photos
 						width: 300px
 						margin-right: 15px
 						display: block
+						
 footer
 			background: url('https://avatanplus.com/files/resources/original/58e0bb7e6f8d515b2ddc65f9.jpg') center/cover no-repeat fixed 
 			color: #fff
 			width: 100%
+			border-top: 10px double #fff
 			.info
 						.kon-text
 									color: #fff

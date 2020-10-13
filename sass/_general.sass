@@ -177,9 +177,11 @@ ul.navbar-nav
 			.logoimg
 						width: 100%
 						height: 100%
-						
+						backdrop-filter: blur(15px)
+						background-color: rgba(200, 200, 200, 0.5)
 						.logo-bg
 									width: 100%
+									
 main.photos
 
 			height: 100%
@@ -236,9 +238,14 @@ main.photos
 									@include image
 						button
 									color: #fff
+									
 						.bootstrap-btn
 									background-color: $bootstrap-color
 									@include btn
+									&:hover
+												background-color: #fff
+												color: #a920db
+												border: #a920db !important
 						.css-btn
 									background-color: $css-color
 									@include btn

@@ -1,4 +1,24 @@
 
+@media (min-width: 1199px)
+			.baner2
+						min-height: 400px
+						.logoimg
+									transition: 1s all
+									box-shadow: 0 0 10px #fff
+									backdrop-filter: blur(5px)
+									&:hover
+												box-shadow: 0 0 20px #fff
+												height: 220px
+												width: 102% !important
+												padding: 50% 0
+												backdrop-filter: blur(15px)
+												transform: translateY(-3px)
+												transform: translateX(-13px)
+												transition: 0.5s all
+												
+												
+
+												
 @media (max-width: 1199px)
 			.baner
 						background: url('https://avatanplus.com/files/resources/original/58e0bb7e6f8d515b2ddc65f9.jpg') center/cover no-repeat fixed
@@ -54,6 +74,13 @@
 						.carousel
 
 									margin: 0 auto
+			
+main.photos
+			.img-p
+						.bootstrap-btn
+									&:hover
+												background-color: none
+												
 			footer
 						.info
 									.kon-tel
@@ -75,11 +102,15 @@
 						.avtor
 									border-top: 1px solid #fff
 @media (max-width: 576px)
+			.w-sm-100
+						width: 100%
+						margin: 10px auto !important
 			.baner
 						min-height: 100%
+			
 			.baner2
-						.logoimg
-									margin-top: 40px
+						padding: 35px 0 5px 0
+									
 			main.photos
 						.img-p
 									.header-text
@@ -91,10 +122,21 @@
 									.header-text2
 												.big	
 															width: 30px
-			main.bootstrap
-						.w-sm-100
-									width: 100%
-									margin: 10px auto !important
+									.bootstrap-btn
+												@include btn
+												right: 10%
+												width: 80%
+									.sass-btn	
+												@include btn
+												@include btn2
+									.css-btn
+												@include btn
+												@include btn2
+									
+
+			
+
+
 			footer
 			
 						.info

@@ -2,11 +2,20 @@
 
 let liken;
 function likee(){
-    liken = confirm("Вам нравится этот сайт?");
-    if(liken == true){
-        alert("Хорошо");
+    
+    for(let i = 1; i < 2; i++){
+        liken = prompt("Ведите пароль?");
+        
+       if(liken == 1234){
+        alert("Верно!");
     }else{
-        alert("Напишите мне на почту как мне это исправить");
+        alert("Подробно в Инстаграме");
+        i--;
+    } 
     }
+    
+     
 }
+   
+
 likee();

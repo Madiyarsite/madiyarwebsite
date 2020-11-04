@@ -1,21 +1,21 @@
 'use strict';
 
-let liken;
-function likee(){
-    
-    for(let i = 1; i < 2; i++){
-        liken = prompt("Ведите пароль?");
-        
-       if(liken == 1234){
-        alert("Верно!");
-    }else{
-        alert("Подробно в Инстаграме");
-        i--;
-    } 
-    }
-    
-     
-}
+let namee,
+    logoo = document.querySelector(' .navbar-brand');
    
-
-likee();
+function logo(){
+    namee = prompt("Ваше имя");
+    for(let i = 0; i < 2; i++){
+        
+    if((typeof(namee)) != "string" || (typeof(namee)) == null || namee == "" || namee.length > 15 ){
+        alert("Вы вели неверно!");
+        namee = prompt("Ваше имя");
+        i--;
+    }else{
+        
+        logoo.innerHTML = namee;
+        
+    }
+  }
+}
+logo();
